@@ -8,6 +8,6 @@ private:
 public:
 	void Attack(monster &);
           void heal();
-	monster(string, int,int);
+	monster(string, int=1,int=1);
 };
 #endif
