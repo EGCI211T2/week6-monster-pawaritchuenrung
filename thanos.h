@@ -12,12 +12,5 @@ public:
 	/ clear half of monster hp, if stone =6*/
 	void operator++(); // increase the stone;
 };
-monster :: monster(string n, int h, int p )
-{
-	name =n;
-	hp =h;
-	potion = p;
-	cout <<"Monster "<<name<<"is here"<< endl;
-	
-}
+
 #endif

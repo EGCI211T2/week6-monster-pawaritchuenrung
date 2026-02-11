@@ -5,11 +5,20 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
-    monster A("Siri",10,1);
-    monster B("Daisuke");//name ,hp, potion if hp&potion are filled it will be set as default value
 
-    monster x[5] = {("James"),("Michael"),("Saharah"),("Somchai"),("Somying")};
+    monster A("Siri ",10,1);
+    monster B("Daisuke ");//name ,hp, potion if hp&potion are filled it will be set as default value
 
+    monster x[5] = {{"James"},{"Michael"},{"Saharah"},{"Somchai"},{"Somying"}};
+    monster C;
+    monster *p;
+    p=&C;
+    p->display();
+    p=&A
+    p->display();
+    p=new monster("Sarina",20);
+    p->display();
+    delete []p;
   /*
  
  monster *p,x;
