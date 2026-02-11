@@ -18,8 +18,10 @@ int main(int argc, char* argv[]) {
     p->display();
     p=new monster("Sarina",20);
     p->display();
+    delete []p;//delete whenever u dont wanna use leaw
+    p=newmonster[3];
     delete []p;
-  /*
+    /*
  
  monster *p,x;
   p=&x;
