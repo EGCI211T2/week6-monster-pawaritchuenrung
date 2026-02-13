@@ -55,5 +55,8 @@ monster:: ~monster()//deconstructor
 {
 	cout<< name<<"is Deleted"<<endl;
 }
-//monster :: 
+monster :: monster(int,int)
+{
+	
+}
 #endif
